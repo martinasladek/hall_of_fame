@@ -1,0 +1,62 @@
+/* Container for all the entries */
+#data-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row */
+    justify-content: center; /* Centers the items in the container */
+    gap: 10px; /* Space between hexagons */
+}
+
+/* Each name-award pair container */
+#data-container div {
+    background-image: url("https://raw.githubusercontent.com/martinasladek/temp_images/refs/heads/main/images/hex_plaque.png");
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+    background-size: contain;  /* Ensures the image fits within the div */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+
+
+/* Name and award styling */
+#data-container div span {
+    display: block;
+    margin: 5px 0; /* Add some space between name and award */
+    text-align: center; /* Ensure text is centered */
+}
+
+
+
+.name-class {
+    padding-top: 85px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.award-class {
+    font-family: cursive;
+    font-size: small;
+}
+
+body {
+    background: linear-gradient(158deg, rgba(0,0,0,1) 27%, rgba(97,97,97,1) 74%, rgba(255,255,255,1) 100%);
+}
+
+h1 {
+    font-size: xx-large;
+    color: wheat; 
+    text-align: center;
+    font-family: cursive;
+}
+
+h6 {
+    text-align: center;
+    font-family: monospace;
+}
+
+
